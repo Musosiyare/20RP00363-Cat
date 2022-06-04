@@ -13,7 +13,7 @@ require_once 'Github_OAuth_Client.php';
  */
 $clientID         = '23e8c43a3c243b808f80';
 $clientSecret     = 'f3c0b19febf5c381b85f9de1444f248b25484b06';
-$redirectURL     = 'http://localhost/20RP00363-Cat/login.php';
+$redirectURL     = 'http://localhost/20RP00363-Cat/index.php';
 
 $gitClient = new Github_OAuth_Client(array(
     'client_id' => $clientID,
